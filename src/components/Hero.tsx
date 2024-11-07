@@ -1,6 +1,5 @@
 import React from 'react'
 import { TextHoverEffect } from './ui/bgtexthover'
-import Link from 'next/link';
 
 const Hero = () => {
   return (
