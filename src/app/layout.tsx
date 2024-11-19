@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google"; // Import Space Grotesk from Google Fonts
-
+import { Dock } from "@/components/Dock";
 import "./globals.css";
 import { Nav } from "@/components/Nav";
 
@@ -22,7 +22,7 @@ export default function RootLayout({
       <head>
         {/* <link rel="icon" href="/jsm-logo.png" sizes="any" /> */}
       </head>
-      <body className={`${spaceGrotesk.className} text-green-400 min-h-screen bg-black/[0.96] antialiased relative flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5`}>
+      <body className={`${spaceGrotesk.className} text-green-400 bg-black/[0.96] antialiased relative flex justify-center items-center flex-col mx-auto sm:px-10 px-5`}>
       <div className="relative w-full h-full flex items-center">
           {/* Responsive Navbar */}
           <div className="w-full px-5 py-3 md:px-10 md:py-5 flex justify-between items-center">
@@ -31,6 +31,8 @@ export default function RootLayout({
           </div>
         </div>
           {children}
+          <div className="w-full fixed bottom-5 left-0 z-10"><Dock/></div>
+          
 
       </body>
     </html>

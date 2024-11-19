@@ -15,11 +15,16 @@ const Hero = () => {
         <span className="font-bold" >&gt; </span>Computer Science& Design Scholar
         <br />
         <span className="font-bold" >&gt; </span>CSD B.Tech. 2026 Batch <a href="https://www.iiitd.ac.in" target="_blank" rel="noopener noreferrer" className="underline">IIIT Delhi</a>
-        <div className='pt-5'>
+        <div className='pt-5 flex '>
+          <div>
         <button className="shadow-[0_0_0_3px_#000000_inset] px-6 py-2 bg-transparent border border-green-500 text-green-border-green-500 rounded-lg font-bold transform hover:-translate-y-1 transition duration-400"><span className="font-bold" >&gt; </span>
-        <a href="https://drive.google.com/file/d/1PSTzJen1o2f9SClhzglZOG2Hwc0Z0Z9I/view?usp=sharing" target="_blank" rel="noopener noreferrer">Résumé</a>
+        <a href="https://drive.google.com/file/d/1KCtGk2Qne_Fy9uymY8uA_cW9bItDf-8-/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Résumé</a>
+</button></div><div className='ml-2'>
+<button className=" shadow-[0_0_0_3px_#000000_inset] px-6 py-2 bg-transparent border border-green-500 text-green-border-green-500 rounded-lg font-bold transform hover:-translate-y-1 transition duration-400"><span className="font-bold" >&gt; </span>
+        <a href="https://kintsugi-programmer.github.io/" target="_blank" rel="noopener noreferrer">Legacy Website</a>
 </button></div>
-      </div>
+</div>
+</div>
       
 
 
