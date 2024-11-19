@@ -34,7 +34,6 @@ export const FloatingDock = ({
     </>
   );
 };
-
 const FloatingDockMobile = ({
   items,
   className,
@@ -44,24 +43,29 @@ const FloatingDockMobile = ({
 }) => {
   const [open, setOpen] = useState(false);
   return (
-    <div className={cn("relative block md:hidden", className)}>
+    <div
+      className={cn(
+        "fixed bottom-4 right-4 block md:hidden",
+        className
+      )}
+    >
       <AnimatePresence>
         {open && (
           <motion.div
             layoutId="nav"
-            className="absolute bottom-full mb-2 inset-x-0 flex flex-col gap-2"
+            className="absolute right-full mr-2 bottom-0 flex flex-col gap-2"
           >
             {items.map((item, idx) => (
               <motion.div
                 key={item.title}
-                initial={{ opacity: 0, y: 10 }}
+                initial={{ opacity: 0, x: 10 }}
                 animate={{
                   opacity: 1,
-                  y: 0,
+                  x: 0,
                 }}
                 exit={{
                   opacity: 0,
-                  y: 10,
+                  x: 10,
                   transition: {
                     delay: idx * 0.05,
                   },
@@ -89,6 +93,7 @@ const FloatingDockMobile = ({
     </div>
   );
 };
+
 
 const FloatingDockDesktop = ({
   items,
