@@ -39,7 +39,7 @@ export function Dock() {
     },
 
     {
-      title: "Changelog",
+      title: "LinkedIn",
       icon: (
         <IconBrandLinkedin className="h-full w-full text-green-500" />
       ),
