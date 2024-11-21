@@ -88,7 +88,7 @@ const MobilePort = () => {
               className="group relative bg-transparent border border-green-500 text-green-500 rounded-lg overflow-hidden font-bold transform hover:-translate-y-1 transition duration-400"
             >
               <Link href={product.link} className="block group-hover:shadow-2xl">
-                <div className="w-full h-60 relative">
+                <div className="w-full h-40 relative">
                   <Image
                     src={product.thumbnail}
                     alt={product.title}
