@@ -21,6 +21,8 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         {/* <link rel="icon" href="/jsm-logo.png" sizes="any" /> */}
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
       </head>
       <body className={`${spaceGrotesk.className} text-green-400 bg-black/[0.96] antialiased relative flex justify-center items-center flex-col mx-auto sm:px-10 px-5`}>
       <div className="relative w-full h-full flex items-center">
