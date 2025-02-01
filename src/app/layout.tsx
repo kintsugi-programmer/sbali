@@ -8,8 +8,8 @@ import { Nav } from "@/components/Nav";
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "kintsugi-programmer",
-  description: "Siddhant Bali's Portfolio",
+  title: "KintsugiDevStudio",
+  description: "Siddhant Bali's Portfolio | IIIT Delhi CSD 2026 Batch",
 };
 
 export default function RootLayout({

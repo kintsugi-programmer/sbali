@@ -4,11 +4,13 @@ import Grid from '@/components/Grid'
 import MobilePort from '@/components/MobilePort'
 import Capture from '@/components/Capture'
 import { Portfolio } from '@/components/portfolio'
+import About from '@/components/About'
 const page = () => {
   return (
     <main className=" relative bg-black-100 flex justify-center items-center flex-col pt-[10] mx-auto sm:px-10 px-5 ">
     <div className="max-w-7xl w-full">
       <Hero />
+      <About/>
       
 
       <div className="hidden md:block">
@@ -20,9 +22,9 @@ const page = () => {
 <div className="block md:hidden">
   <MobilePort /> 
 </div>
-<div className='py-80'> 
+{/* <div className='py-80'> 
       <Grid />
-      </div>
+      </div> */}
       <div>
 <Capture/>
 </div>

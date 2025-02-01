@@ -19,7 +19,8 @@ function Navbar({ className }: { className?: string }) {
   const toggleMenu = () => setMenuOpen(!menuOpen);  // Function to toggle menu visibility
 
   return (
-    <div className={cn("fixed top-10 py-5 inset-x-4 max-w-2xl mx-auto z-50", className)}>
+    // inset 2
+    <div className={cn("fixed top-10 py-5 inset-x-10 max-w-2xl mx-auto z-50", className)}>
       <Menu setActive={setActive}>
         <div className="w-full flex justify-between items-center">
           {/* Logo on the left */}
@@ -32,17 +33,17 @@ function Navbar({ className }: { className?: string }) {
           <MenuItem setActive={setActive} active={active} item="☰">
               <div className="flex flex-col space-y-4 text-sm">
                 
-                <HoveredLink href="/web-dev">Web Development</HoveredLink>
+                {/* <HoveredLink href="/web-dev">Web Development</HoveredLink>
                 <HoveredLink href="/interface-design">Interface Design</HoveredLink>
                 <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
-                <HoveredLink href="/branding">Branding</HoveredLink>
+                <HoveredLink href="/branding">Branding</HoveredLink> */}
               </div>
             </MenuItem>
           </div>
 
           {/* Menu items grouped on the right */}
           <div className={`flex items-center gap-6 ${menuOpen ? 'flex-col absolute bg-white top-16 left-4 right-4 p-6' : 'hidden lg:flex'}`}>
-            <MenuItem setActive={setActive} active={active} item="Services">
+            {/* <MenuItem setActive={setActive} active={active} item="Services">
             
               <div className="flex flex-col space-y-4 text-sm">
                 <HoveredLink href="/web-dev">Web Development</HoveredLink>
@@ -50,7 +51,7 @@ function Navbar({ className }: { className?: string }) {
                 <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
                 <HoveredLink href="/branding">Branding</HoveredLink>
               </div>
-            </MenuItem>
+            </MenuItem> */}
             {/* 
             <MenuItem setActive={setActive} active={active} item="Products">
               <div className="text-sm grid grid-cols-2 gap-10 p-4">

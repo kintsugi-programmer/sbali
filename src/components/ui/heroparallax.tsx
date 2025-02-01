@@ -124,15 +124,31 @@ export const HeroParallax = ({
 
 export const Header = () => {
   return (
-    <div className="max-w-7xl relative mx-auto pt-20 md:pt-40 px-4 z-10 w-full  left-0 top-0">
+    <div className="max-w-7xl relative mx-auto px-4 z-10 w-full left-0 top-0 flex flex-col md:flex-row items-center md:items-start">
+      
+    <div className="md:w-2/3 text-center pr-12 md:text-left">
       <h1 className="text-2xl md:text-7xl font-bold text-green">
         Kintsugi <br /> development studio
       </h1>
-      <p className="max-w-4xl text-base md:text-xl mt-8 dark:text-neutral-200">
-      As a passionate web developer with 2+ years of experience, I specialize in creating innovative, scalable, and responsive production-optimized web solutions.
-      I thrive on delivering high-quality, user-focused web applications that drive measurable results.
+      <p className="max-w-4xl text-justify text-base md:text-xl mt-8 dark:text-neutral-200">
+        As a passionate web developer with 2+ years of experience, I
+        specialize in creating innovative, scalable, and responsive
+        production-optimized web solutions. I thrive on delivering
+        high-quality, user-focused web applications that drive measurable
+        results.
       </p>
     </div>
+
+    <div className="w-full md:w-1/3 flex justify-center md:justify-end">
+      <Image
+        src="/studio/2.png"
+        alt="Developer Illustration"
+        width={600}
+        height={600}
+        className=""
+      />
+    </div>
+  </div>
   );
 };
 

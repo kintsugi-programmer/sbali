@@ -72,6 +72,13 @@ export const products = [
 const MobilePort = () => {
     return (<>
       <div className="max-w-7xl relative mx-auto pt-20 md:pt-40 px-4 w-full  left-0 top-0">
+         <Image
+                src="/studio/2.png"
+                alt="Developer Illustration"
+                width={700}
+                height={600}
+                className=""
+              />
       <h1 className="text-2xl md:text-7xl font-bold text-green">
         Kintsugi <br /> development studio
       </h1>
