@@ -1,6 +1,6 @@
 import React from 'react'
 import { TextHoverEffect } from './ui/bgtexthover'
-
+import Link from 'next/link'
 const Hero = () => {
   return (
     <div className="relative md:h-[30rem] h-[40rem] flex flex-col md:flex-row items-center justify-center">
@@ -21,7 +21,7 @@ const Hero = () => {
         <a href="https://drive.google.com/file/d/12xA2oxFaTbMwvA4NgXNsFyut325HjTUo/view?usp=sharing" target="_blank" rel="noopener noreferrer">Résumé</a>
 </button></div><div className='md:ml-2 md:mt-0 mt-2'>
 <button className=" shadow-[0_0_0_3px_#000000_inset] px-6 py-2 bg-transparent border border-green-500 text-green-border-green-500 rounded-lg font-bold transform hover:-translate-y-1 transition duration-400"><span className="font-bold" >&gt; </span>
-        <a href="https://kintsugi-programmer.github.io/" target="_blank" rel="noopener noreferrer">Legacy Website</a>
+        <Link href="#contact" >Reach Out</Link>
 </button></div>
 </div>
 </div>

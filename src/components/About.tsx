@@ -133,7 +133,7 @@ import React from 'react'
 import Image from "next/image";
 const About = () => {
   return (
-    <div>
+    <section id="about">
         <div className="flex flex-col md:flex-row gap-8 ">
             <div className="">
         <Image
@@ -149,7 +149,7 @@ const About = () => {
         
         
          </div>
-    </div>
+    </section>
   )
 }
 

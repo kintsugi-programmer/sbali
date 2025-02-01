@@ -5,6 +5,7 @@ import MobilePort from '@/components/MobilePort'
 import Capture from '@/components/Capture'
 import { Portfolio } from '@/components/portfolio'
 import About from '@/components/About'
+import Contact from '@/components/Contact'
 const page = () => {
   return (
     <main className=" relative bg-black-100 flex justify-center items-center flex-col pt-[10] mx-auto sm:px-10 px-5 ">
@@ -12,7 +13,7 @@ const page = () => {
       <Hero />
       <About/>
       
-
+<section id="work">
       <div className="hidden md:block">
   <Portfolio />
         {/* Portfolio destroys Mobile responsiveness */}
@@ -21,14 +22,15 @@ const page = () => {
 </div>
 <div className="block md:hidden">
   <MobilePort /> 
-</div>
+</div></section>
 {/* <div className='py-80'> 
       <Grid />
       </div> */}
       <div>
 <Capture/>
 </div>
-
+<div className='pt-[220vh] pb-[9vh]'>
+<Contact/></div>
     </div>
 
     </main>

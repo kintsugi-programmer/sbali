@@ -59,10 +59,13 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      className="overflow-x-hidden overflow-y-clip py-[40vh] antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="overflow-x-hidden overflow-y-clip pb-[80vh] pt-[20vh] antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       {/* Oveerflow hidden generally */}
+      
+
       <Header />
+      
       <motion.div
         style={{
           rotateX,
@@ -127,6 +130,7 @@ export const Header = () => {
     <div className="max-w-7xl relative mx-auto px-4 z-10 w-full left-0 top-0 flex flex-col md:flex-row items-center md:items-start">
       
     <div className="md:w-2/3 text-center pr-12 md:text-left">
+    
       <h1 className="text-2xl md:text-7xl font-bold text-green">
         Kintsugi <br /> development studio
       </h1>
@@ -138,6 +142,7 @@ export const Header = () => {
         results.
       </p>
     </div>
+    
 
     <div className="w-full md:w-1/3 flex justify-center md:justify-end">
       <Image
@@ -148,6 +153,8 @@ export const Header = () => {
         className=""
       />
     </div>
+    
+    
   </div>
   );
 };

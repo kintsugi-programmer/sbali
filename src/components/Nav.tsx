@@ -32,17 +32,20 @@ function Navbar({ className }: { className?: string }) {
           <div className="lg:hidden">
           <MenuItem setActive={setActive} active={active} item="☰">
               <div className="flex flex-col space-y-4 text-sm">
-                
-                {/* <HoveredLink href="/web-dev">Web Development</HoveredLink>
-                <HoveredLink href="/interface-design">Interface Design</HoveredLink>
-                <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
-                <HoveredLink href="/branding">Branding</HoveredLink> */}
+              <HoveredLink href="/">About Me</HoveredLink>
+          <HoveredLink href="#work">Works</HoveredLink>
+          <HoveredLink href="#captures">Captures</HoveredLink>
+          <HoveredLink href="#contact">Reach Out</HoveredLink>
               </div>
             </MenuItem>
           </div>
 
           {/* Menu items grouped on the right */}
           <div className={`flex items-center gap-6 ${menuOpen ? 'flex-col absolute bg-white top-16 left-4 right-4 p-6' : 'hidden lg:flex'}`}>
+          <HoveredLink href="/">About Me</HoveredLink>
+          <HoveredLink href="#work">Works</HoveredLink>
+          <HoveredLink href="#captures">Captures</HoveredLink>
+          <HoveredLink href="#contact">Reach Out</HoveredLink>
             {/* <MenuItem setActive={setActive} active={active} item="Services">
             
               <div className="flex flex-col space-y-4 text-sm">

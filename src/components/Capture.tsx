@@ -20,7 +20,7 @@ type CardSectionProps = {
 
 const Capture = () => {
   return (
-    <div className="py-40">
+    <section className="py-40" id="captures">
       <div className="h-screen w-full">
       <h1 className="text-2xl md:text-7xl text-center font-bold text-green">
       Eyes Before Lens
@@ -32,7 +32,7 @@ const Capture = () => {
         <CardSection cards={cards.slice(4, 8)} />
         <CardSection cards={cards.slice(8, 14)} />
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -3,7 +3,8 @@ import React from "react";
 import { HeroParallax } from "./ui/heroparallax";
 
 export function Portfolio() {
-  return <HeroParallax products={products} />;
+  return <HeroParallax products={products} />
+  ;
 }
 export const products = [
     {
