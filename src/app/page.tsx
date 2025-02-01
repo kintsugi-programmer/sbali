@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from '@/components/Hero'
 import Grid from '@/components/Grid'
 import MobilePort from '@/components/MobilePort'
+import Capture from '@/components/Capture'
 import { Portfolio } from '@/components/portfolio'
 const page = () => {
   return (
@@ -19,11 +20,15 @@ const page = () => {
 <div className="block md:hidden">
   <MobilePort /> 
 </div>
-
-
+<div className='py-80'> 
       <Grid />
+      </div>
+      <div>
+<Capture/>
+</div>
 
     </div>
+
     </main>
   )
 }

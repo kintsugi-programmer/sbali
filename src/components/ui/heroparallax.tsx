@@ -59,7 +59,7 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      className="h-[400vh]  py-40 antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="overflow-x-hidden overflow-y-clip py-[40vh] antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       {/* Oveerflow hidden generally */}
       <Header />
@@ -124,7 +124,7 @@ export const HeroParallax = ({
 
 export const Header = () => {
   return (
-    <div className="max-w-7xl relative mx-auto pt-20 md:pt-40 px-4 w-full  left-0 top-0">
+    <div className="max-w-7xl relative mx-auto pt-20 md:pt-40 px-4 z-10 w-full  left-0 top-0">
       <h1 className="text-2xl md:text-7xl font-bold text-green">
         Kintsugi <br /> development studio
       </h1>
