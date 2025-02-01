@@ -24,6 +24,7 @@ export const HeroParallax = ({
   const thirdRow = products.slice(8, 12);
   const fourthRow = products.slice(12, 16);
   const fifthRow = products.slice(16, 20);
+  const sixthRow = products.slice(20, 24);
   const ref = React.useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -111,11 +112,20 @@ export const HeroParallax = ({
             />
           ))}
         </motion.div>
-        <motion.div className="flex flex-row-reverse space-x-reverse space-x-5">
+        <motion.div className="flex flex-row-reverse space-x-reverse space-x-5 mb-5 ">
           {fifthRow.map((product) => (
             <ProductCard
               product={product}
               translate={translateX}
+              key={product.title}
+            />
+          ))}
+        </motion.div>
+        <motion.div className="flex flex-row  mb-5 space-x-5 ">
+          {sixthRow.map((product) => (
+            <ProductCard
+              product={product}
+              translate={translateXReverse}
               key={product.title}
             />
           ))}

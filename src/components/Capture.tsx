@@ -62,11 +62,9 @@ const cards: CardType[] = [
   { id: 5, content: <Skeleton title="Sunset Bliss" quote="The sky broke like an egg into full sunset and the water caught fire." />, className: "col-span-1", thumbnail: "/Capture/4.webp" },
   { id: 6, content: <Skeleton title="Green Canopy" quote="Look deep into nature, and then you will understand everything better." />, className: "md:col-span-2", thumbnail: "/Capture/5.webp" },
 
-  { id: 8, content: <Skeleton title="Book Nook" quote="A room without books is like a body without a soul." />, className: "col-span-1", thumbnail: "/Capture/7.webp" },
-  { id: 9, content: <Skeleton title="Golden Hour" quote="Happiness is... the golden hour glow." />, className: "col-span-1", thumbnail: "/Capture/8.webp" },
+  { id: 9, content: <Skeleton title="Golden Hour" quote="Happiness is... the golden hour glow." />, className: "md:col-span-2", thumbnail: "/Capture/8.webp" },
   { id: 11, content: <Skeleton title="Sky Burst" quote="Every cloud has a silver lining." />, className: "col-span-1", thumbnail: "/Capture/10.webp" },
-  
   { id: 12, content: <Skeleton title="Moonlit Silhouette" quote="There are nights when the wolves are silent and only the moon howls." />, className: "col-span-1", thumbnail: "/Capture/11.webp" },
   { id: 13, content: <Skeleton title="Dome Experience" quote="The universe is under no obligation to make sense to you." />, className: "col-span-1", thumbnail: "/Capture/20230502_135537.webp" },
-  { id: 14, content: <Skeleton title="Sunflower Glow" quote="Keep your face always toward the sunshine—and shadows will fall behind you." />, className: "col-span-1", thumbnail: "/Capture/20230517_153903.webp" }
+  { id: 14, content: <Skeleton title="Sunflower Glow" quote="Keep your face always toward the sunshine—and shadows will fall behind you." />, className: "md:col-span-1", thumbnail: "/Capture/20230517_153903.webp" }
 ];

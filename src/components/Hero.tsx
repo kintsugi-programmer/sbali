@@ -16,13 +16,13 @@ const Hero = () => {
         <br />
         <span className="font-bold" >&gt; </span>CSD B.Tech. 2026 Batch <a href="https://www.iiitd.ac.in" target="_blank" rel="noopener noreferrer" className="underline">IIIT Delhi</a>
         <div className='pt-5 flex  flex-col md:flex-row '>
-          <div>
+          <div><a href="https://drive.google.com/file/d/12xA2oxFaTbMwvA4NgXNsFyut325HjTUo/view?usp=sharing" target="_blank" rel="noopener noreferrer">
         <button className="shadow-[0_0_0_3px_#000000_inset] px-6 py-2 bg-transparent border border-green-500 text-green-border-green-500 rounded-lg font-bold transform hover:-translate-y-1 transition duration-400"><span className="font-bold" >&gt; </span>
-        <a href="https://drive.google.com/file/d/12xA2oxFaTbMwvA4NgXNsFyut325HjTUo/view?usp=sharing" target="_blank" rel="noopener noreferrer">Résumé</a>
-</button></div><div className='md:ml-2 md:mt-0 mt-2'>
-<button className=" shadow-[0_0_0_3px_#000000_inset] px-6 py-2 bg-transparent border border-green-500 text-green-border-green-500 rounded-lg font-bold transform hover:-translate-y-1 transition duration-400"><span className="font-bold" >&gt; </span>
-        <Link href="#contact" >Reach Out</Link>
-</button></div>
+        Résumé
+</button></a></div><div className='md:ml-2 md:mt-0 mt-2'>
+<Link href="#contact" ><button className=" shadow-[0_0_0_3px_#000000_inset] px-6 py-2 bg-transparent border border-green-500 text-green-border-green-500 rounded-lg font-bold transform hover:-translate-y-1 transition duration-400"><span className="font-bold" >&gt; </span>
+        Reach Out
+</button></Link></div>
 </div>
 </div>
       

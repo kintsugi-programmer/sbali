@@ -14,23 +14,23 @@ export const products = [
           "/proj/breacher.png",
       },    
       {
-        title: "Form Spam Attack Bot",
-        link: "https://github.com/kintsugi-programmer/DecoyNet?tab=readme-ov-file#form-spam-attack-bot",
+        title: "1Px Descon 2025 | IIIT-Delhi",
+        link: "https://1pxdesignconf.iiitd.edu.in/",
         thumbnail:
-          "/proj/formspamattack.png",
+          "/proj/1px1.png",
       },    
+      
       {
-        title: "DecoyNet : Lo-Fi Honeypots",
-        link: "https://github.com/kintsugi-programmer/DecoyNet",
+        title: "Top CA Firms in Pune | Chartered Accountants and Association | C.S. Bhatiya & Associates",
+        link: "https://csbhatiya.com/",
         thumbnail:
-          "/proj/Honeypot.png",
-      },
-    {
-        title: "Legacy Portfolio",
-        link: "https://kintsugi-programmer.github.io/",
-        thumbnail:
-          "/proj/balinux.png",
-      },
+        "/proj/csb2.png",
+    }, {
+      title: "DecoyNet : Lo-Fi Honeypots",
+      link: "https://github.com/kintsugi-programmer/DecoyNet",
+      thumbnail:
+        "/proj/Honeypot.png",
+    },
       {
         title: "Snake Game",
         link: "https://kintsugi-programmer.github.io/Snake-Game/",
@@ -68,10 +68,10 @@ export const products = [
           "/proj/lore2.png",
       },
       {
-        title: "IIIT Delhi's Persisst Lab. Website3",
-        link: "https://persisst.iiitd.edu.in/",
+        title: "1Px Descon 2025 | IIIT-Delhi 2",
+        link: "https://1pxdesignconf.iiitd.edu.in/",
         thumbnail:
-          "/proj/persisst3.png",
+          "/proj/1px2.png",
       },
       {
         title: "LifeLore - A Wisdom Social Network3",
@@ -86,11 +86,11 @@ export const products = [
           "/proj/lore4.png",
       },
       {
-        title: "SBali - Portfolio v2",
-        link: "https://lifelore.vercel.app/",
+        title: "Top CA Firms in Pune | Chartered Accountants and Association | C.S. Bhatiya & Associates 2",
+        link: "https://csbhatiya.com/",
         thumbnail:
-          "/proj/sbali.jpg",
-      },
+        "/proj/csb3.png",
+    },
     {
         title: "SQLinux Script",
         link: "https://github.com/kintsugi-programmer/Qalakriti-Ecommerce-DBMS?tab=readme-ov-file#sqlinux-script",
@@ -103,6 +103,36 @@ export const products = [
         thumbnail:
           "/proj/linuxscript.png",
       },
+
+
+
+
+      {
+        title: "MySQL Advanced Database Management",
+        link: "https://github.com/kintsugi-programmer/Qalakriti-Ecommerce-DBMS",
+        thumbnail:
+          "/proj/Qala3.jpg",
+      },
+      {
+        title: "1Px Descon 2025 | Rough",
+        link: "https://1pixel.vercel.app/",
+        thumbnail:
+          "/proj/1pxold1.png",
+      },
+      {
+        title: "Top CA Firms in Pune | Chartered Accountants and Association | C.S. Bhatiya & Associates",
+        link: "https://csbhatiya.com/",
+        thumbnail:
+        "/proj/csb1.png",
+    },      {
+      title: "कर्मOS | Distraction-Free LMS Platform ",
+      link: "https://karmos.vercel.app/",
+      thumbnail:
+        "/proj/karmos1.png",
+    },
+
+
+
       {
         title: "MySQL Advanced Database Management",
         link: "https://github.com/kintsugi-programmer/Qalakriti-Ecommerce-DBMS",

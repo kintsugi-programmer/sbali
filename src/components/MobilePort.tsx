@@ -7,19 +7,35 @@ import Image from 'next/image';
 export const products = [
 
       {
-        title: "IIIT Delhi's Persisst Lab. Website",
+        title: "Persisst Lab | HCD | IIIT-Delhi",
         link: "https://persisst.iiitd.edu.in/",
         thumbnail:
           "/proj/persisst1.png",
       },
       {
-        title: "LifeLore - A Wisdom Social Network3",
+        title: "Top CA Firms in Pune | Chartered Accountants and Association | C.S. Bhatiya & Associates ",
+        link: "https://csbhatiya.com/",
+        thumbnail:
+        "/proj/csb2.png",
+    },{
+      title: "कर्मOS | Distraction-Free LMS Platform ",
+      link: "https://karmos.vercel.app/",
+      thumbnail:
+        "/proj/karmos1.png",
+    },
+      {
+        title: "LifeLore | A Wisdom Social Network3",
         link: "https://lifelore.vercel.app/",
         thumbnail:
           "/proj/lore1.png",
+      },{
+        title: "1Px Descon 2025 | HCD | CDNM | IIIT-Delhi",
+        link: "https://1pxdesignconf.iiitd.edu.in/",
+        thumbnail:
+          "/proj/1px1.png",
       },
       {
-        title: "SBali - Portfolio v2",
+        title: "SBali | Portfolio v2",
         link: "https://lifelore.vercel.app/",
         thumbnail:
           "/proj/sbali.jpg",
@@ -64,6 +80,11 @@ export const products = [
       link: "https://kintsugi-programmer.github.io/Snake-Game/",
       thumbnail:
         "/proj/snake.png",
+    },{
+      title: "1Px Descon 2025 | Rough",
+      link: "https://1pixel.vercel.app/",
+      thumbnail:
+        "/proj/1pxold1.png",
     },
         
 ];
@@ -95,7 +116,7 @@ const MobilePort = () => {
               className="group relative bg-transparent border border-green-500 text-green-500 rounded-lg overflow-hidden font-bold transform hover:-translate-y-1 transition duration-400"
             >
               <Link href={product.link} className="block group-hover:shadow-2xl">
-                <div className="w-full h-40 relative">
+                <div className="w-full h-44 relative">
                   <Image
                     src={product.thumbnail}
                     alt={product.title}

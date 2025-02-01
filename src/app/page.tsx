@@ -29,7 +29,7 @@ const page = () => {
       <div>
 <Capture/>
 </div>
-<div className='pt-[220vh] pb-[9vh]'>
+<div className='sm:pt-[220vh] pt-[200vh] pb-[9vh]'>
 <Contact/></div>
     </div>
 
