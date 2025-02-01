@@ -3,6 +3,7 @@ import { Space_Grotesk } from "next/font/google"; // Import Space Grotesk from G
 import { Dock } from "@/components/Dock";
 import "./globals.css";
 import { Nav } from "@/components/Nav";
+import { Analytics } from "@vercel/analytics/react"
 
 // Configure Space Grotesk font with Latin subset
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
@@ -33,6 +34,7 @@ export default function RootLayout({
           </div>
         </div>
           {children}
+          <Analytics />
           <div className="w-full fixed bottom-5 left-0 z-10"><Dock/></div>
           
 
