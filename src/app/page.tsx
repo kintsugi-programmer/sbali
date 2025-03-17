@@ -7,6 +7,8 @@ import { Portfolio } from '@/components/portfolio'
 import About from '@/components/About'
 import Contact from '@/components/Contact'
 import { ImgCursor } from '@/components/ImgCursor'
+
+
 const page = () => {
   return (<>
     <head>
@@ -35,12 +37,12 @@ const page = () => {
       <Grid />
       </div> */}
       <div>
-{/* <Capture/> */}
-<ImgCursor/>
+<Capture/>
+{/* <ImgCursor/> */}
 </div>
-<Contact/>
-{/* <div className='sm:pt-[220vh] pt-[200vh] pb-[9vh]'>
-<Contact/></div> */}
+{/* <Contact/> */}
+<div className='sm:pt-[220vh] pt-[200vh] pb-[9vh]'>
+<Contact/></div>
     </div>
 
     </main></>
