@@ -6,6 +6,7 @@ import Capture from '@/components/Capture'
 import { Portfolio } from '@/components/portfolio'
 import About from '@/components/About'
 import Contact from '@/components/Contact'
+import { ImgCursor } from '@/components/ImgCursor'
 const page = () => {
   return (
     <main className=" relative bg-black-100 flex justify-center items-center flex-col pt-[10] mx-auto sm:px-10 px-5 ">
@@ -27,10 +28,12 @@ const page = () => {
       <Grid />
       </div> */}
       <div>
-<Capture/>
+{/* <Capture/> */}
+<ImgCursor/>
 </div>
-<div className='sm:pt-[220vh] pt-[200vh] pb-[9vh]'>
-<Contact/></div>
+<Contact/>
+{/* <div className='sm:pt-[220vh] pt-[200vh] pb-[9vh]'>
+<Contact/></div> */}
     </div>
 
     </main>
