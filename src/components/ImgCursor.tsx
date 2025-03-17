@@ -18,14 +18,10 @@ export const ImgCursor = () => {
         "/Capture/2.webp",
         "/Capture/3.webp",
         "/Capture/4.jpg",
-        "/Capture/4.webp",
         "/Capture/5.webp",
         "/Capture/6.webp",
         "/Capture/7.webp",
-        "/Capture/8.webp",
-        "/Capture/9.webp",
         "/Capture/10.webp",
-        "/Capture/11.webp",
         "/Capture/20230502_135537.webp",
         "/Capture/20230517_153903.webp"
       ]}
