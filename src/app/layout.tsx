@@ -5,6 +5,9 @@ import "./globals.css";
 import { Nav } from "@/components/Nav";
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import Loading  from "./loading";
+import { Suspense } from "react";
+import DelayedLoader from "@/components/DelayedLoader";
 // Configure Space Grotesk font with Latin subset
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
@@ -28,6 +31,7 @@ export default function RootLayout({
 
       </head>
       <body className={`${spaceGrotesk.className} text-green-400 bg-black/[0.96] antialiased relative flex justify-center items-center flex-col mx-auto sm:px-10 px-5`}>
+      <Suspense fallback={<Loading />}>
       <div className="relative w-full h-full flex items-center">
           {/* Responsive Navbar */}
           <div className="w-full px-5 py-3 md:px-10 md:py-5 flex justify-between items-center">
@@ -35,12 +39,12 @@ export default function RootLayout({
             <Nav />
           </div>
         </div>
-          {children}
+        <DelayedLoader>{children}</DelayedLoader>
           <SpeedInsights />
           <Analytics />
           <div className="w-full fixed bottom-5 left-0 z-10"><Dock/></div>
           
-
+          </Suspense>
       </body>
     </html>
   );
