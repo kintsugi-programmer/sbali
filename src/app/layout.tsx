@@ -6,6 +6,7 @@ import { Nav } from "@/components/Nav";
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import Loading  from "./loading";
+import { RoundedDrawerNav } from "@/components/Nav2";
 import { Suspense } from "react";
 import DelayedLoader from "@/components/DelayedLoader";
 // Configure Space Grotesk font with Latin subset
@@ -32,14 +33,145 @@ export default function RootLayout({
       </head>
       <body className={`${spaceGrotesk.className} text-green-400 bg-black/[0.96] antialiased relative flex justify-center items-center flex-col mx-auto sm:px-10 px-5`}>
       <Suspense fallback={<Loading />}>
-      <div className="relative w-full h-full flex items-center">
-          {/* Responsive Navbar */}
+      {/* <div className="relative w-full h-full flex items-center">
+        
           <div className="w-full px-5 py-3 md:px-10 md:py-5 flex justify-between items-center">
-            {/* Add more divbar content here */}
+           
             <Nav />
           </div>
+        </div> */}
+             <div className="bg-neutral-950">
+              <DelayedLoader>
+        <RoundedDrawerNav
+          links={[
+            {
+              title: "Products",
+              sublinks: [
+                {
+                  title: "DigitalDrz",
+                  href: "https://digitaldrz.vercel.app/",
+                },
+                {
+                  title: "LifeLore",
+                  href: "https://lifelore.vercel.app/",
+                },
+                {
+                  title: "KarmOS",
+                  href: "https://karmos.vercel.app/",
+                },
+              ],
+            },
+            {
+              title: "Clients",
+              sublinks: [
+                {
+                  title: "C S Bhatiya & Associates",
+                  href: "https://csbhatiya.com/",
+                },
+                {
+                  title: "PERSISST Labs",
+                  href: "https://persisst.iiitd.edu.in/",
+                },
+                {
+                  title: "1Px DesCon",
+                  href: "1pxdesignconf.iiitd.edu.in",
+                },
+                {
+                  title: "HCD Dept. of IIIT Delhi",
+                  href: "https://hcd.iiitd.ac.in/",
+                },
+                {
+                  title: "DSS",
+                  href: "https://iiitd.ac.in/dss",
+                },
+
+              ],
+            },
+            {
+              title: "Documentations",
+              sublinks: [
+                {
+                  title: "Let's do Design Thinking",
+                  href: "https://design-thinking-kds.my.canva.site/",
+                },
+                {
+                  title: "LoFi Honeypots for Web Security",
+                  href: "https://github.com/kintsugi-programmer/DecoyNet",
+                },
+                {
+                  title: "Yarnsugi",
+                  href: "https://github.com/kintsugi-programmer/Yarnsugi",
+                },
+
+                {
+                  title: "Blogs",
+                  href: "https://kintsugicodes.hashnode.dev/",
+                },
+              ],
+            },
+            {
+              title: "Connect",
+              sublinks: [
+                {
+                  title: "Github",
+                  href: "https://github.com/kintsugi-programmer",
+                },
+                {
+                  title: "Blogs",
+                  href: "https://kintsugicodes.hashnode.dev/",
+                },
+                {
+                  title: "LinkedIn",
+                  href: "https://www.linkedin.com/in/kintsugi-programmer/",
+                },
+                {
+                  title: "Behance",
+                  href: "https://www.behance.net/balibhai",
+                },
+              ],
+            },
+            {
+              title: "Pricing",
+              sublinks: [
+                {
+                  title: "Startup",
+                  href: "#contact",
+                },
+                {
+                  title: "Smalls Business",
+                  href: "#contact",
+                },
+                {
+                  title: "Enterprise",
+                  href: "#contact",
+                },
+              ],
+            },
+            {
+              title: "Others",
+              sublinks: [
+                {
+                  title: "About Me",
+                  href: "/",
+                },
+                {
+                  title: "Projects",
+                  href: "#work",
+                },
+                {
+                  title: "Eyes Before Lens",
+                  href: "#captures",
+                },
+              ],
+            },
+          ]}
+          navBackground="bg-neutral-950"
+          bodyBackground=""
+        >
+        {children}
+        </RoundedDrawerNav>
+        </DelayedLoader>
         </div>
-        <DelayedLoader>{children}</DelayedLoader>
           <SpeedInsights />
           <Analytics />
           <div className="w-full fixed bottom-5 left-0 z-10"><Dock/></div>

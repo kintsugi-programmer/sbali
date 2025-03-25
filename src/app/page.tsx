@@ -7,6 +7,7 @@ import { Portfolio } from '@/components/portfolio'
 import About from '@/components/About'
 import Contact from '@/components/Contact'
 import { ImgCursor } from '@/components/ImgCursor'
+import { DragCards } from '@/components/Img2'
 
 
 const page = () => {
@@ -37,11 +38,12 @@ const page = () => {
       <Grid />
       </div> */}
       <div>
-<Capture/>
+{/* <Capture/> */}
+<DragCards/>
 {/* <ImgCursor/> */}
 </div>
 {/* <Contact/> */}
-<div className='sm:pt-[220vh] pt-[200vh] pb-[9vh]'>
+<div className='pt-20 pb-[9vh]'>
 <Contact/></div>
     </div>
 

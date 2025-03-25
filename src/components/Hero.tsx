@@ -3,7 +3,7 @@ import { TextHoverEffect } from './ui/bgtexthover'
 import Link from 'next/link'
 const Hero = () => {
   return (
-    <div className="relative md:h-[30rem] h-[40rem] flex flex-col md:flex-row items-center justify-center">
+    <div className="relative md:h-[20rem] h-[40rem] flex flex-col md:flex-row items-center justify-center">
             <TextHoverEffect text="kintsugi" />
       
       
