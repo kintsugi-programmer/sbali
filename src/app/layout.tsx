@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-      <meta name="viewport" content="width=device-width, initial-scale=0.6"/>
+      <meta name="viewport" content="width=device-width, initial-scale=0.2"/>
 
         {/* <link rel="icon" href="/jsm-logo.png" sizes="any" /> */}
         {/* <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> */}
@@ -44,7 +44,33 @@ export default function RootLayout({
               <DelayedLoader>
         <RoundedDrawerNav
           links={[
+           
             {
+              title: "Clients",
+              sublinks: [
+                {
+                  title: "C S Bhatiya & Associates",
+                  href: "https://csbhatiya.com/",
+                },
+                {
+                  title: "PERSISST Labs",
+                  href: "https://persisst.iiitd.edu.in/",
+                },
+                {
+                  title: "1Px DesCon",
+                  href: "https://1pxdesignconf.iiitd.edu.in",
+                },
+                {
+                  title: "HCD Dept. of IIIT Delhi",
+                  href: "https://hcd.iiitd.ac.in/",
+                },
+                {
+                  title: "DSS",
+                  href: "https://dss2025.iiitd.edu.in/",
+                },
+
+              ],
+            }, {
               title: "Products",
               sublinks: [
                 {
@@ -59,32 +85,6 @@ export default function RootLayout({
                   title: "KarmOS",
                   href: "https://karmos.vercel.app/",
                 },
-              ],
-            },
-            {
-              title: "Clients",
-              sublinks: [
-                {
-                  title: "C S Bhatiya & Associates",
-                  href: "https://csbhatiya.com/",
-                },
-                {
-                  title: "PERSISST Labs",
-                  href: "https://persisst.iiitd.edu.in/",
-                },
-                {
-                  title: "1Px DesCon",
-                  href: "1pxdesignconf.iiitd.edu.in",
-                },
-                {
-                  title: "HCD Dept. of IIIT Delhi",
-                  href: "https://hcd.iiitd.ac.in/",
-                },
-                {
-                  title: "DSS",
-                  href: "https://iiitd.ac.in/dss",
-                },
-
               ],
             },
             {

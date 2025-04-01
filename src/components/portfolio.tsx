@@ -85,34 +85,7 @@ export const products = [
         thumbnail:
           "/proj/lore4.png",
       },
-      {
-        title: "Top CA Firms in Pune | Chartered Accountants and Association | C.S. Bhatiya & Associates 2",
-        link: "https://csbhatiya.com/",
-        thumbnail:
-        "/proj/csb3.png",
-    },
-    {
-        title: "SQLinux Script",
-        link: "https://github.com/kintsugi-programmer/Qalakriti-Ecommerce-DBMS?tab=readme-ov-file#sqlinux-script",
-        thumbnail:
-          "/proj/QalaSql.png",
-      },
-      {
-        title: "Debian Scripts",
-        link: "https://github.com/kintsugi-programmer/LinuxScripts",
-        thumbnail:
-          "/proj/linuxscript.png",
-      },
-
-
-
-
-      {
-        title: "MySQL Advanced Database Management",
-        link: "https://github.com/kintsugi-programmer/Qalakriti-Ecommerce-DBMS",
-        thumbnail:
-          "/proj/Qala3.jpg",
-      },
+     
       {
         title: "1Px Descon 2025 | Rough",
         link: "https://1pixel.vercel.app/",
@@ -152,6 +125,84 @@ export const products = [
         "/proj/Qala1.png",
     },      {
         title: "MySQL Advanced Database Management2",
+        link: "https://github.com/kintsugi-programmer/Qalakriti-Ecommerce-DBMS",
+        thumbnail:
+          "/proj/Qala3.jpg",
+      },
+      
+      {
+        title: "Design Summer School 2025 | IIIT Delhi",
+        link: "https://dss2025.iiitd.edu.in/",
+        thumbnail:
+          "/proj/dss1.png",
+      },
+      {
+        title: "Design Summer School 2025 | IIIT Delhi",
+        link: "https://dss2025.iiitd.edu.in/",
+        thumbnail:
+          "/proj/dss2.png",
+      },
+
+      {
+        title: "Design Summer School 2025 | IIIT Delhi",
+        link: "https://dss2025.iiitd.edu.in/",
+        thumbnail:
+          "/proj/dss3.png",
+      },
+      {
+        title: "Design Summer School 2025 | IIIT Delhi",
+        link: "https://dss2025.iiitd.edu.in/",
+        thumbnail:
+          "/proj/dss1.png",
+      },
+      {
+        title: "DigitalDrz | Exclusive catalog of world-class UI/UX components for Clients",
+        link: "https://dss2025.iiitd.edu.in/",
+        thumbnail:
+          "/proj/drz1.png",
+      },
+      {
+        title: "DigitalDrz | Exclusive catalog of world-class UI/UX components for Clients",
+        link: "https://dss2025.iiitd.edu.in/",
+        thumbnail:
+          "/proj/drz2.png",
+      },
+      {
+        title: "DigitalDrz | Exclusive catalog of world-class UI/UX components for Clients",
+        link: "https://dss2025.iiitd.edu.in/",
+        thumbnail:
+          "/proj/drz3.png",
+      },
+      {
+        title: "DigitalDrz | Exclusive catalog of world-class UI/UX components for Clients",
+        link: "https://dss2025.iiitd.edu.in/",
+        thumbnail:
+          "/proj/drz4.png",
+      },
+      {
+        title: "Top CA Firms in Pune | Chartered Accountants and Association | C.S. Bhatiya & Associates 2",
+        link: "https://csbhatiya.com/",
+        thumbnail:
+        "/proj/csb3.png",
+    },
+    {
+        title: "SQLinux Script",
+        link: "https://github.com/kintsugi-programmer/Qalakriti-Ecommerce-DBMS?tab=readme-ov-file#sqlinux-script",
+        thumbnail:
+          "/proj/QalaSql.png",
+      },
+      {
+        title: "Debian Scripts",
+        link: "https://github.com/kintsugi-programmer/LinuxScripts",
+        thumbnail:
+          "/proj/linuxscript.png",
+      },
+
+
+
+
+      {
+        title: "MySQL Advanced Database Management",
         link: "https://github.com/kintsugi-programmer/Qalakriti-Ecommerce-DBMS",
         thumbnail:
           "/proj/Qala3.jpg",

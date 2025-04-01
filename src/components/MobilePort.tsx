@@ -85,7 +85,18 @@ export const products = [
       link: "https://1pixel.vercel.app/",
       thumbnail:
         "/proj/1pxold1.png",
-    },
+    }, {
+        title: "Design Summer School 2025 | IIIT Delhi",
+        link: "https://dss2025.iiitd.edu.in/",
+        thumbnail:
+          "/proj/dss1.png",
+      },
+      {
+        title: "DigitalDrz | Exclusive catalog of world-class UI/UX components for Clients",
+        link: "https://dss2025.iiitd.edu.in/",
+        thumbnail:
+          "/proj/drz1.png",
+      },
         
 ];
 
@@ -116,7 +127,7 @@ const MobilePort = () => {
               className="group relative bg-transparent border border-green-500 text-green-500 rounded-lg overflow-hidden font-bold transform hover:-translate-y-1 transition duration-400"
             >
               <Link href={product.link} className="block group-hover:shadow-2xl">
-                <div className="w-full h-44 relative">
+                <div className="w-full h-56 relative">
                   <Image
                     src={product.thumbnail}
                     alt={product.title}
