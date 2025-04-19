@@ -96,6 +96,10 @@ export default function RootLayout({
                   href: "https://design-thinking-kds.my.canva.site/",
                 },
                 {
+                  title: "Design research & Development of KintsugiDev.Studio",
+                  href: "https://design-thinking-kds.my.canva.site/portfolio",
+                },
+                {
                   title: "LoFi Honeypots for Web Security",
                   href: "https://github.com/kintsugi-programmer/DecoyNet",
                 },
@@ -182,6 +186,9 @@ export default function RootLayout({
                 {
                   title: "Eyes Before Lens",
                   href: "#captures",
+                },{
+                  title: "Design research & Development of KintsugiDev.Studio",
+                  href: "https://design-thinking-kds.my.canva.site/portfolio",
                 },
               ],
             },
