@@ -8,6 +8,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 import Loading  from "./loading";
 import { RoundedDrawerNav } from "@/components/Nav2";
 import { Suspense } from "react";
+import FloatingAIButton from "@/components/ui/Chat";
 import DelayedLoader from "@/components/DelayedLoader";
 // Configure Space Grotesk font with Latin subset
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
@@ -152,7 +153,7 @@ export default function RootLayout({
               sublinks: [
                 {
                   title: "About Me",
-                  href: "/",
+                  href: "/chat",
                 },
                 {
                   title: "Projects",
@@ -169,6 +170,7 @@ export default function RootLayout({
           bodyBackground=""
         >
         {children}
+        <FloatingAIButton/>
         </RoundedDrawerNav>
         </DelayedLoader>
         </div>
