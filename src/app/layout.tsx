@@ -100,6 +100,26 @@ export default function RootLayout({
                   href: "https://github.com/kintsugi-programmer/DecoyNet",
                 },
                 {
+                  title: "Comprehensive Guide to Booting Artix on a UEFI-Enabled Virtual Machine",
+                  href: "https://www.linkedin.com/pulse/comprehensive-guide-booting-artix-uefi-enabled-virtual-siddhant-bali-u8jcc/?trackingId=FwpuZSUKR9GDj43eGB0KcQ%3D%3D",
+                },
+                {
+                  title: "Compiling and Installing a Custom Kernel on Arch Linux",
+                  href: "https://www.linkedin.com/pulse/compiling-installing-custom-kernel-arch-linux-siddhant-bali-mkh5e/?trackingId=TtGCaVWFRVWrtUEGi4aWlA%3D%3D",
+                },
+                {
+                  title: " PC Emg Toolkit MediCat USB Guide",
+                  href: "https://www.linkedin.com/pulse/ultimate-pc-emg-toolkit-kit-medicat-usb-siddhant-bali-efumc/?trackingId=f%2F0YnvjrTJuhAXD%2FRItH7Q%3D%3D",
+                },
+                {
+                  title: "Ani-cli Guide",
+                  href: "https://www.linkedin.com/pulse/ani-cli-command-line-interface-anime-enthusiasts-siddhant-bali-13bzc/?trackingId=f%2F0YnvjrTJuhAXD%2FRItH7Q%3D%3D",
+                },
+                {
+                  title: "Tldr CLI Manpage Alternate Guide",
+                  href: "https://www.linkedin.com/pulse/tldr-say-goodbye-confusing-man-pages-siddhant-bali-8wedc/?trackingId=f%2F0YnvjrTJuhAXD%2FRItH7Q%3D%3D",
+                },
+                {
                   title: "Yarnsugi",
                   href: "https://github.com/kintsugi-programmer/Yarnsugi",
                 },
