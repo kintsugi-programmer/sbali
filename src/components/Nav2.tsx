@@ -57,9 +57,20 @@ export  const RoundedDrawerNav = ({
             {/* <button className="hidden rounded-md bg-green-500 px-3 py-1.5 text-sm text-green-50 transition-colors hover:bg-green-600 md:block">
               <span className="font-bold">Get started - </span> no CC required
             </button> */}
-            <Link href="#contact" ><button className="md:block hidden shadow-[0_0_0_3px_#000000_inset] px-6 py-2 bg-transparent border border-green-500 text-green-border-green-500 rounded-lg font-bold transform hover:-translate-y-1 transition duration-400"><span className="font-bold" >&gt; </span>
-        Reach Out
-</button></Link>
+<Link href="/#contact" scroll={true}>
+  <button
+    className="md:block hidden
+               shadow-[0_0_0_3px_#000000_inset]
+               px-6 py-2 bg-transparent
+               border border-green-500
+               text-green-500
+               rounded-lg font-bold
+               transform hover:-translate-y-1
+               transition duration-400"
+  >
+    <span className="font-bold">&gt;</span> Reach Out
+  </button>
+</Link>
             <button
               onClick={() => setMobileNavOpen((pv) => !pv)}
               className="mt-0.5 block text-2xl text-green-50 md:hidden"
