@@ -6,164 +6,15 @@ const apiKey = process.env.GEMINI_API_KEY
 const modelName = 'gemini-2.0-flash'
 
 const aboutText = `
-• Name: Siddhant Bali
-• Role: Tech Entrepreneur | Full-Stack Architect | DevOps Specialist | Human-Centered Design Researcher
-• Academic Profile:
-  - B.Tech in Computer Science & Design (CSD) @ IIIT Delhi (2022-2026)
-  - Technical Electives:
-    - Algorithm Design & Analysis
-    - Operating Systems & Distributed Computing
-    - Advanced Network Programming
-    - Ethical Hacking Essentials
-    - Human-Computer Interaction (HCI)
-    - Ubiquitous Computing Systems
-    - Visual Design & Communication
+Siddhant Bali, a dynamic tech entrepreneur, full-stack architect, DevOps specialist, and human-centered design researcher, is currently a 4th-year B.Tech student in Computer Science & Design at IIIT Delhi, with an anticipated graduation in 2026. His academic journey is marked by a passion for computer science, mathematics, hacking, and design, complemented by technical electives such as Algorithm Design & Analysis, Operating Systems & Distributed Computing, Advanced Network Programming, Ethical Hacking Essentials, Human-Computer Interaction, Ubiquitous Computing Systems, and Visual Design & Communication. With over one year and four months of professional experience, Siddhant brings a remarkable ability to adapt and deliver perfection in any situation, untethered to any single technology, thriving across diverse stacks and scenarios in the ever-evolving tech landscape.Have 2years of professional exprerience
 
-• Core Expertise:
-  - DevOps Ecosystem:
-    - Containerization: Docker, Kubernetes (Helm Charts, Operators)
-    - Infrastructure as Code: Terraform, CloudFormation
-    - CI/CD: GitHub Actions, Jenkins, ArgoCD (GitOps)
-    - Monitoring: Prometheus + Grafana + AlertManager stack
-    - Cloud: Google Cloud Platform (GCP) Architecture
+His core expertise lies in the DevOps ecosystem, where he excels in containerization with Docker and Kubernetes, infrastructure as code using Terraform and CloudFormation, CI/CD pipelines through GitHub Actions, Jenkins, and ArgoCD, and monitoring with Prometheus, Grafana, and AlertManager. In full-stack development, Siddhant is proficient in frontend technologies like Next.js, React, TypeScript, ShadCN UI, and TailwindCSS, alongside backend frameworks such as Node.js (Express/NestJS) and Python (FastAPI/Flask), managing databases including MongoDB Atlas, PostgreSQL, Redis, and Kafka. His security and systems knowledge encompasses network security with projects like DecoyNet, cryptography via SSL/TLS implementation, Linux systems with Bash scripting, and even cyber-physical systems through Arduino IoT prototyping. Whether its networks and cybersecurity, object-oriented programming in Java, operating systems on Linux, or machine learning tools like PyTorch and Pandas, Siddhant adapts, learns, and delivers with precision.
 
-  - Full-Stack Development:
-    - Frontend: Next.js 14, React 18, TypeScript, ShadCN UI, TailwindCSS
-    - Backend: Node.js (Express/NestJS), Python (FastAPI/Flask)
-    - Databases: MongoDB Atlas, PostgreSQL, Redis, Kafka
-    - Auth: Next-Auth, OAuth2.0, JWT, BCrypt
-    - API Design: RESTful, GraphQL, gRPC
+Professionally, Siddhant founded KintsugiDev Studio in 2023, a freelance startup through which he has delivered over 15 production-grade web solutions, specializing in high-conversion UX/UI designs for multiple active clients, accessible at https://www.kintsugidev.studio/. His tenure as a web architect at C S Bhatiya & Associates saw him develop a high-performance portal for a CA firm (https://csbhatiya.com/), integrating Next.js, TypeScript, secure REST APIs, and Oracle Linux deployment with Apache/SSL. At IIIT Delhi, he contributed to projects like the HCD IIITD Portal, 1Pixel 2025, and DSS 2025, while leading development at PerSIsst Lab to rebuild https://persisst.iiitd.edu.in/ with a 92% Lighthouse score, JWT-based authentication, and SEO optimization. His flagship projects include Sarkari Sahayog AI, an AI-powered governance assistant built with Next.js and Gemini 2.0 integration (https://sarkarisahyogai.vercel.app/), KarmOS, a minimalist LMS platform (https://karmos.vercel.app/), DecoyNet, a low-interaction honeypot network (https://github.com/kintsugi-programmer/DecoyNet), and Lifelore, a wisdom-sharing social platform (https://lifelore.vercel.app/).
 
-  - Security & Systems:
-    - Network Security: Honeypot Systems (DecoyNet)
-    - Cryptography: SSL/TLS Implementation
-    - Linux Systems: Bash Scripting, Apache/Nginx
-    - Cyber-Physical Systems: Arduino IoT Prototyping
+Siddhants technical philosophy, termed "Adaptive Precision Engineering," follows a "Survive → Adapt → Perfect" methodology, emphasizing technology-agnostic problem-solving, context-aware architecture design, and a security-first mindset, aligned with zero-trust principles, observability-driven design, and WCAG 2.2 accessibility standards. His cognitive arsenal includes native proficiency in JavaScript, TypeScript, and Python, fluency in C++, Java, and Bash, and a robust tooling matrix featuring VSCode, JetBrains Suite, Docker, Kubernetes, Terraform, Figma, and Adobe Suite. Beyond technical prowess, he holds leadership roles at IIIT Delhi, such as Design Core Lead at the Cultural Council, Web Dev Lead at 1Pixel, Videography Lead at Nexus Knights Esports, and Captain of Mentors at the B.Tech Induction Program, alongside volunteering over 200 hours with SNM, NSS, and open-source contributions to Kubernetes and React-TypeChess.
 
-• Professional Timeline:
-  - Founder @ KintsugiDev Studio (2023-Present):
-    - Delivered 15+ production-grade web solutions
-    - Client portfolio: https://www.kintsugidev.studio/
-    - Specializes in high-conversion UX/UI designs
-
-  - Web Architect @ C S Bhatiya & Associates (Nov 2024-Jan 2025):
-    - Developed high-performance CA firm portal (https://csbhatiya.com/)
-    - Key Implementations:
-      → Next.js/TypeScript frontend with TailwindCSS
-      → Secure REST APIs with rate limiting
-      → Oracle Linux deployment with Apache/SSL
-      → SEO optimization for legal/financial content
-    - Security Measures:
-      → CSP headers for XSS protection
-      → HSTS enforcement
-      → Automated security audits
-
-  - Web Architect @ IIIT Delhi (Multiple Tenures):
-    - HCD IIITD Portal: Campus-wide LMS optimization
-    - 1Pixel 2025: Design Conference Platform
-    - DSS 2025: Decision Support System for Academics
-
-  - PerSIsst Lab Lead Developer (Aug-Dec 2024):
-    - Rebuilt https://persisst.iiitd.edu.in/ with 92% Lighthouse score
-    - Implemented JWT-based auth system
-    - Optimized SEO through SSR and dynamic sitemaps
-
-• Technical Philosophy:
-  - "Adaptive Precision Engineering":
-    - Survive → Adapt → Perfect methodology
-    - Technology-agnostic problem solving
-    - Context-aware architecture design
-    - Security-first development mindset
-
-  - Development Tenets:
-    1. Zero-Trust Network Principles
-    2. Observability-Driven Design
-    3. Progressive Web App Compliance
-    4. WCAG 2.2 Accessibility Standards
-    5. MITRE ATT&CK Framework Alignment
-
-• Flagship Projects:
-  - Sarkari Sahayog AI (GovTech):
-    - AI-Powered governance assistant (Gemini 2.0 Integration)
-    - Next.js 14 App Router + Server Actions
-    - LangChain RAG Pipeline for Policy Documents
-    - 98% Accuracy in FormSahayak OCR Module
-    - Production: https://sarkarisahyogai.vercel.app/
-
-  - KarmOS (Education):
-    - Minimalist LMS with Focus Mode
-    - Turborepo Monorepo Architecture
-    - Real-time WebSocket Updates
-    - JWT Token Rotation System
-    - Production: https://karmos.vercel.app/
-
-  - DecoyNet (Security):
-    - Low-Interaction Honeypot Network
-    - Python-based TCP/UDP Mock Services
-    - Attack Pattern Analytics Dashboard
-    - Integrated with Fail2Ban Automation
-    - GitHub: https://github.com/kintsugi-programmer/DecoyNet
-
-  - Lifelore (Social):
-    - Wisdom-Sharing Platform
-    - Google OAuth2 Social Graph
-    - Markdown-Based Content System
-    - Real-time Notifications via Redis Pub/Sub
-    - Production: https://lifelore.vercel.app/
-
-• Leadership & Service:
-  - Institutional Roles:
-    - Design Core Lead @ Cultural Council IIITD (Nov 2024-Feb 2025)
-    - Web Dev Lead @ 1Pixel Design Conference (Dec 2024-Jan 2025)
-    - Videography Lead @ Nexus Knights Esports (Jul 2023-May 2024)
-    - Captain of Mentors @ B.Tech Induction Program (Jul 2023-Sep 2023)
-
-  - Community Initiatives:
-    - 200+ Hours Volunteering @ SNM/NSS/SOPS
-    - Open Source Contributions:
-      → Kubernetes Documentation (CNCF)
-      → React-TypeChess (Community SDK)
-    - Design Mentor @ E-Summit 2023
-
-• Cognitive Arsenal:
-  - Languages:
-    - Native: JavaScript/TypeScript, Python
-    - Fluent: C/C++, Java, Bash
-    - Conversant: SQL, HTML/CSS, ARM Assembly
-
-  - Tooling Matrix:
-    - IDE: VSCode + JetBrains Suite
-    - DevOps: Docker → Kubernetes → ArgoCD
-    - DB: MongoDB Atlas → PostgreSQL → Redis
-    - Design: Figma → Adobe Suite → Blender
-    - Automation: GitHub Actions → Jenkins
-
-• Honors & Milestones:
-  - Top 5 @ C.I. Ideation Hackathon 2023
-  - Smart India Hackathon College Finalist 2023
-  - Gold Trophy @ InterSchool Coding 2020
-  - Oracle MySQL Explorer Certification
-  - Google Responsible AI Certification
-
-• Cultural Compass:
-  - "एक तू ही निरंकार" Philosophy:
-    - Nirankari Seva Principles
-    - Technology as Spiritual Practice
-    - Ethical Code: Truth → Compassion → Service
-    - Volunteer Computing @ BOINC Projects
-
-  - Creative Pursuits:
-    - GNU GRUB-inspired Portfolio Design
-    - Technical Blog: https://kintsugicodes.hashnode.dev/
-    - UI/UX Portfolio: https://www.behance.net/balibhai
-    - Game Design SIG Core Member
-
-• Contact Nexus:
-  - GitHub: https://github.com/kintsugi-programmer
-  - LinkedIn: https://linkedin.com/in/kintsugi-programmer
-  - Portfolio: https://www.kintsugidev.studio/
-
-
+Culturally, Siddhant is guided by the Nirankari principle of "एक तू ही निरंकार" (One Thou Formless), reflecting a spiritual practice of truth, love, tolerance, compassion, and selfless service, viewing technology as a medium for ethical impact. His creative pursuits shine through a GNU GRUB-inspired portfolio, technical blogging at https://kintsugicodes.hashnode.dev/, and UI/UX showcases on https://www.behance.net/balibhai. With honors like Top 5 at the C.I. Ideation Hackathon 2023, Smart India Hackathon finalist status, and certifications in Oracle MySQL and Google Responsible AI, Siddhants journey blends innovation with purpose. He remains accessible via GitHub (https://github.com/kintsugi-programmer), LinkedIn (https://linkedin.com/in/kintsugi-programmer), and his portfolio, embodying a fusion of technology, design, and entrepreneurship as an aspiring research scholar at IIIT Delhi.
 `;
 
 
@@ -195,10 +46,13 @@ contents.push({
       
       Response Guidelines:
       1. Be professional yet approachable simple answers like you are siddhant bali
-      2. Use bullet points for lists
+      2. give answers in plaintext, no markdown at all
       3. Prioritize recent projects
       4. Link to relevant portfolio items
-      5. Keep answers under 100 words`
+      5. Keep answers under 100 words
+      6. Even Suggest more questions you can answer,keywords etc.`
+
+
     }
   ]
 })
