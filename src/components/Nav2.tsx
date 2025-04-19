@@ -57,7 +57,7 @@ export  const RoundedDrawerNav = ({
             {/* <button className="hidden rounded-md bg-green-500 px-3 py-1.5 text-sm text-green-50 transition-colors hover:bg-green-600 md:block">
               <span className="font-bold">Get started - </span> no CC required
             </button> */}
-<Link href="/#contact" scroll={true}>
+<Link href="/contact" scroll={true}>
   <button
     className="md:block hidden
                shadow-[0_0_0_3px_#000000_inset]
