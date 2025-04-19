@@ -65,8 +65,8 @@ export default function ChatPage() {
   };
 
   return (
-    <div className="max-w-screen h-auto mx-auto p-6">
-         <Card className="bg-black border-0 w-full max-w-3xl mx-auto">
+    <div className="max-w-screen h-auto  mx-auto p-6">
+         <Card className="bg-neutral-950 border-0 w-full max-w-3xl mx-auto">
 
         <CardContent className="space-y-4 p-6">
           <h2 className="text-5xl font-bold text-green-400">
@@ -77,7 +77,7 @@ export default function ChatPage() {
 
 <div
   ref={containerRef}
-  className="flex flex-col gap-3 overflow-y-auto p-3 max-h-[500px] border-dashed border-2 border-white rounded-xl"
+  className="flex flex-col gap-3 overflow-y-auto p-3 h-[500px] border-dashed border-2 border-white rounded-xl"
 >
   {messages.map((msg, i) => (
     <div
@@ -90,8 +90,8 @@ export default function ChatPage() {
         className={[
           'inline-block px-4 py-2 max-w-[70%] break-words shadow',
           msg.role === 'bot'
-            ? 'bg-gray-100 text-gray-800 rounded-tr-none rounded-xl'
-            : 'bg-blue-500 text-white rounded-tl-none rounded-xl',
+            ? 'border-dashed border-2 border-green-300   text-white rounded-tr-none rounded-xl'
+            : 'bg-green-400 text-neutral-950 font-bold rounded-tl-none rounded-xl',
         ].join(' ')}
       >
         {msg.content}
@@ -104,7 +104,7 @@ export default function ChatPage() {
   <div className="flex-1">
     {/* 2) input fills its parent */}
     <Input
-      className="w-full"
+      className="w-full bg-neutral-950 border-solid border-2 border-green-300 "
       value={query}
       onChange={(e) => setQuery(e.target.value)}
       placeholder="Type your message..."
