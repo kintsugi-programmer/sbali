@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function FloatingAIButton() {
   return (
-    <div className="fixed bottom-6 right-4 ">
+    <div className="fixed bottom-6 right-4 z-20 ">
       <Link
         href="/chat"
         className="h-20 w-20 rounded-full bg-neutral-800 flex items-center justify-center"
