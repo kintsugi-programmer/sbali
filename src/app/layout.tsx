@@ -184,6 +184,10 @@ export default function RootLayout({
                   href: "#work",
                 },
                 {
+                  title: "Testimonials",
+                  href: "#testimonials",
+                },
+                {
                   title: "Eyes Before Lens",
                   href: "#captures",
                 },{

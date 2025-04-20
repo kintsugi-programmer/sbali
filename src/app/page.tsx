@@ -8,6 +8,7 @@ import About from '@/components/About'
 import Contact from '@/components/Contact'
 import { ImgCursor } from '@/components/ImgCursor'
 import { DragCards } from '@/components/Img2'
+import Testimonials from '@/components/Testimonials'
 
 
 const page = () => {
@@ -37,7 +38,14 @@ const page = () => {
 {/* <div className='py-80'> 
       <Grid />
       </div> */}
+      <section id="testimonials">
+<h1 className="text-2xl md:text-7xl text-center font-bold text-green">
+Testimonials
+    </h1>
+      <Testimonials/>
+      </section>
       <div>
+
 {/* <Capture/> */}
 <DragCards/>
 {/* <ImgCursor/> */}
