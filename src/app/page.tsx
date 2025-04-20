@@ -9,6 +9,7 @@ import Contact from '@/components/Contact'
 import { ImgCursor } from '@/components/ImgCursor'
 import { DragCards } from '@/components/Img2'
 import Testimonials from '@/components/Testimonials'
+import { Changelog } from '@/components/Changelog'
 
 
 const page = () => {
@@ -44,12 +45,18 @@ Testimonials
     </h1>
       <Testimonials/>
       </section>
+
+      <section id="changelog">
+      <Changelog/>
+      </section>
       <div>
 
 {/* <Capture/> */}
 <DragCards/>
 {/* <ImgCursor/> */}
 </div>
+
+
 {/* <Contact/> */}
 <div className='pt-20 pb-[9vh]'>
 <Contact/></div>

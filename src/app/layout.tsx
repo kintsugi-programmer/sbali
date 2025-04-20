@@ -173,11 +173,15 @@ export default function RootLayout({
               ],
             },
             {
-              title: "Others",
+              title: "Learn More",
               sublinks: [
                 {
-                  title: "About Me",
+                  title: "Chat with KintsugiAI 👾",
                   href: "/chat",
+                },
+                {
+                  title: "Work Experiences",
+                  href: "#changelog",
                 },
                 {
                   title: "Projects",
