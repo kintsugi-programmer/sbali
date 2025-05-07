@@ -96,6 +96,10 @@ export default function RootLayout({
                   href: "https://design-thinking-kds.my.canva.site/",
                 },
                 {
+                  title: "Top Portfolio Picks Researcher’s Edition",
+                  href: "https://design-thinking-kds.my.canva.site/portfolio-researcher",
+                },
+                {
                   title: "Design research & Development of KintsugiDev.Studio",
                   href: "https://design-thinking-kds.my.canva.site/portfolio",
                 },
