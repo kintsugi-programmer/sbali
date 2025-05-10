@@ -157,25 +157,25 @@ export const products = [
       },
       {
         title: "DigitalDrz | Exclusive catalog of world-class UI/UX components for Clients",
-        link: "https://dss2025.iiitd.edu.in/",
+        link: "https://digitaldrz.vercel.app/",
         thumbnail:
           "/proj/drz1.png",
       },
       {
         title: "DigitalDrz | Exclusive catalog of world-class UI/UX components for Clients",
-        link: "https://dss2025.iiitd.edu.in/",
+        link: "https://digitaldrz.vercel.app/",
         thumbnail:
           "/proj/drz2.png",
       },
       {
         title: "DigitalDrz | Exclusive catalog of world-class UI/UX components for Clients",
-        link: "https://dss2025.iiitd.edu.in/",
+        link: "https://digitaldrz.vercel.app/",
         thumbnail:
           "/proj/drz3.png",
       },
       {
         title: "DigitalDrz | Exclusive catalog of world-class UI/UX components for Clients",
-        link: "https://dss2025.iiitd.edu.in/",
+        link: "https://digitaldrz.vercel.app/",
         thumbnail:
           "/proj/drz4.png",
       },
