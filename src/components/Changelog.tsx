@@ -6,18 +6,26 @@ export function Changelog() {
     {
       title: "2025",
       content: (
-        <div>
+        <div><p className="font-bold text-xl text-white mb-4">
+  <span className="font-bold">&gt;</span> Institute Innovation Council, IIIT Delhi | Web Dev Intern | Delhi, India | Mar 2025 – Jul 2025 <br />
+  <p className="font-normal text-base">
+    Developed responsive and performant website features, contributing to the full-stack architecture.  
+    Built cloud deployment pipelines and deployed applications to Linux servers, ensuring scalability and reliability.  
+  </p>
+  
+</p>
+
           <p className="font-bold text-xl text-white mb-4">
           <span className="font-bold">&gt;</span> FMT Centre of Excellence (Joint Collaboration of AIIMS & ICMR & IIIT Delhi) |  Jan 2025 - Present<br />
           <p className="font-normal text-base">
           Building a centralized and scalable web platform for clinical data and visualization involving 1000+ patients and 10+ hospitals. Project guided by Prof. Dr. Tarini Shankar Ghosh IIIT Delhi, Dr.Vineet Ahuja Dean& Former Director AIIMS Delhi. Focused on performance, scalability..
-          </p>
-          <br />
+          </p></p>
+          <p className="font-bold text-xl text-white mb-4">
           <span className="font-bold">&gt;</span> Web Development Intern | HCD Department, IIIT Delhi | Mar 2025 - Apr 2025<br />
           <p className="font-normal text-base">
           Created the official website for Design Summer School 2025, a hands-on workshop series in Human-Centered AI, AR/VR, and more. Ensured smooth user navigation, accessibility, and contemporary design standards.
-          </p>
-          </p>
+          
+          </p></p>
           
           <div className="grid grid-cols-2 gap-4">
             <img

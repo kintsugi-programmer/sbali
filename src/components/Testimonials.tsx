@@ -2,13 +2,14 @@
 import { motion } from "framer-motion";
 import { useRef, useState } from "react";
 
-type ListOrderItem = "front" | "middle" | "back";
+type ListOrderItem = "front" | "middle" | "back" | "backmost";
 
 const Testimonials = () => {
   const [order, setOrder] = useState<ListOrderItem[]>([
     "front",
     "middle",
     "back",
+    "backmost",
   ]);
 
   const handleShuffle = () => {
@@ -18,28 +19,38 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="grid place-content-center overflow-hidden  px-8 py-24 text-slate-50">
-      <div className="relative -ml-[100px] h-[450px] w-[350px] md:-ml-[175px]">
-        <Card
-          imgUrl="/testimonials/Pragma.png"
-          testimonial="Siddhant combined creative design with technical precision to deliver a high-quality research lab website. His leadership and reliability left a lasting impact on our project outcomes."
-          author="Dr. Pragma Kar - Director, PerSIsst Lab, IIIT Delhi"
-          handleShuffle={handleShuffle}
-          position={order[0]}
-        />
-        <Card
-          imgUrl="/testimonials/Binu.jpeg"
-          testimonial="Siddhant showcased strong leadership and full-stack web development skills during multiple high-impact departmental projects. His ability to integrate DevOps with scalable design made him a valuable asset to our team."
-          author="Ms. Binu Ann Joseph - Admin, HCD, IIIT Delhi"
-          handleShuffle={handleShuffle}
-          position={order[1]}
-        />
+    <div className="grid place-content-center overflow-hidden px-8 py-24 text-slate-50">
+      <div className="relative -ml-[150px] h-[450px] w-[350px] md:-ml-[200px]">
         <Card
           imgUrl="/testimonials/csbhatiya.webp"
           testimonial="Siddhant developed fast, user-focused websites using modern UI/UX and secure backend practices. His technical depth and design thinking consistently exceeded expectations across all deliverables."
           author="CA Chintan S. Bhatiya - Director, C S Bhatiya & Associates"
           handleShuffle={handleShuffle}
+          position={order[0]}
+        />
+
+        <Card
+          imgUrl="/testimonials/pankajvajpayee.jpg"
+          testimonial="Siddhant played a key role in developing the E-Cell IIIT Delhi 2025 website. His full-stack expertise, design thinking, and professionalism made him an invaluable contributor."
+          author="Prof. Pankaj Vajpayee – Dean, Corporate Relations & Entrepreneurship, IIIT-Delhi"
+          handleShuffle={handleShuffle}
+          position={order[1]}
+        />
+
+        <Card
+          imgUrl="/testimonials/Pragma.png"
+          testimonial="Siddhant combined creative design with technical precision to deliver a high-quality research lab website. His leadership and reliability left a lasting impact on our project outcomes."
+          author="Dr. Pragma Kar - Director, PerSIsst Lab, IIIT Delhi"
+          handleShuffle={handleShuffle}
           position={order[2]}
+        />
+
+        <Card
+          imgUrl="/testimonials/Binu.jpeg"
+          testimonial="Siddhant showcased strong leadership and full-stack web development skills during multiple high-impact departmental projects. His ability to integrate DevOps with scalable design made him a valuable asset to our team."
+          author="Ms. Binu Ann Joseph - Admin, HCD, IIIT Delhi"
+          handleShuffle={handleShuffle}
+          position={order[3]}
         />
       </div>
     </div>
@@ -77,10 +88,32 @@ const Card = ({
     mousePosRef.current = 0;
   };
 
-  const x = position === "front" ? "0%" : position === "middle" ? "33%" : "66%";
+  const x =
+    position === "front"
+      ? "0%"
+      : position === "middle"
+      ? "25%"
+      : position === "back"
+      ? "50%"
+      : "75%";
+
   const rotateZ =
-    position === "front" ? "-6deg" : position === "middle" ? "0deg" : "6deg";
-  const zIndex = position === "front" ? "2" : position === "middle" ? "1" : "0";
+    position === "front"
+      ? "-6deg"
+      : position === "middle"
+      ? "-2deg"
+      : position === "back"
+      ? "2deg"
+      : "6deg";
+
+  const zIndex =
+    position === "front"
+      ? "4"
+      : position === "middle"
+      ? "3"
+      : position === "back"
+      ? "2"
+      : "1";
 
   const draggable = position === "front";
 
@@ -116,7 +149,7 @@ const Card = ({
       <span className="text-center text-lg italic text-slate-400">
         "{testimonial}"
       </span>
-      <span className="text-center text-sm font-medium text-indigo-400">
+      <span className="text-center text-sm font-medium text-green-400">
         {author}
       </span>
     </motion.div>
