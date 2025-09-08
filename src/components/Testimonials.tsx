@@ -31,7 +31,7 @@ const Testimonials = () => {
 
         <Card
           imgUrl="/testimonials/pankajvajpayee.jpg"
-          testimonial="Siddhant played a key role in developing the E-Cell IIIT Delhi 2025 website. His full-stack expertise, design thinking, and professionalism made him an invaluable contributor."
+          testimonial="Siddhant played a key role in the development of projects under IIIT Delhi Innovation and Incubation Center. His full-stack expertise, design thinking, and professionalism made him an invaluable contributor."
           author="Prof. Pankaj Vajpayee – Dean, Corporate Relations & Entrepreneurship, IIIT-Delhi"
           handleShuffle={handleShuffle}
           position={order[1]}
