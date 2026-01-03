@@ -31,6 +31,20 @@ export function Dock() {
       href: "https://kintsugi-programmer.github.io/about.html",
     },
     {
+      title: "GitHub",
+      icon: (
+        <IconBrandGithub className="h-full w-full text-green-500" />
+      ),
+      href: "https://github.com/kintsugi-programmer",
+    },
+    {
+      title: "X",
+      icon: (
+        <IconBrandX className="h-full w-full text-green-500" />
+      ),
+      href: "https://x.com/siddhantbuilds",
+    },
+    {
       title: "Blogs",
       icon: (
         <IconNews className="h-full w-full text-green-500" />
@@ -52,14 +66,7 @@ export function Dock() {
         <IconBrandBehance className="h-full w-full text-green-500" />
       ),
       href: "https://www.behance.net/balibhai",
-    },
-    {
-      title: "GitHub",
-      icon: (
-        <IconBrandGithub className="h-full w-full text-green-500" />
-      ),
-      href: "https://github.com/kintsugi-programmer",
-    },
+    }
   ];
   return (
     <div className="flex items-center justify-center w-full">
