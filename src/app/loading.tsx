@@ -23,9 +23,11 @@ const PathFinder = () => {
     const startEl = document.getElementById(`${startTop}-${startLeft}`);
     const endEl = document.getElementById(`${endTop}-${endLeft}`);
 
-    startEl!.style.background = START_COLOR;
-    startEl!.dataset.visited = "true";
-    endEl!.style.background = START_COLOR;
+    if (!startEl || !endEl) return;
+
+    startEl.style.background = START_COLOR;
+    startEl.dataset.visited = "true";
+    endEl.style.background = START_COLOR;
 
     let answer = await bfs({
       startTop,

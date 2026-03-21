@@ -124,7 +124,7 @@ export const products = [
         thumbnail:
         "/proj/Qala1.webp",
     },      {
-        title: "MySQL Advanced Database Management2",
+        title: "MySQL Advanced Database Management 3",
         link: "https://github.com/kintsugi-programmer/Qalakriti-Ecommerce-DBMS",
         thumbnail:
           "/proj/Qala3.webp",
@@ -137,20 +137,20 @@ export const products = [
           "/proj/dss1.webp",
       },
       {
-        title: "Design Summer School 2025 | IIIT Delhi",
+        title: "Design Summer School 2025 | IIIT Delhi 2",
         link: "https://dss2025.iiitd.edu.in/",
         thumbnail:
           "/proj/dss2.webp",
       },
 
       {
-        title: "Design Summer School 2025 | IIIT Delhi",
+        title: "Design Summer School 2025 | IIIT Delhi 3",
         link: "https://dss2025.iiitd.edu.in/",
         thumbnail:
           "/proj/dss3.webp",
       },
       {
-        title: "Design Summer School 2025 | IIIT Delhi",
+        title: "Design Summer School 2025 | IIIT Delhi 4",
         link: "https://dss2025.iiitd.edu.in/",
         thumbnail:
           "/proj/dss1.webp",
@@ -162,19 +162,19 @@ export const products = [
           "/proj/drz1.webp",
       },
       {
-        title: "DigitalDrz | Exclusive catalog of world-class UI/UX components for Clients",
+        title: "DigitalDrz | Exclusive catalog of world-class UI/UX components for Clients 2",
         link: "https://digitaldrz.vercel.app/",
         thumbnail:
           "/proj/drz2.webp",
       },
       {
-        title: "DigitalDrz | Exclusive catalog of world-class UI/UX components for Clients",
+        title: "DigitalDrz | Exclusive catalog of world-class UI/UX components for Clients 3",
         link: "https://digitaldrz.vercel.app/",
         thumbnail:
           "/proj/drz3.webp",
       },
       {
-        title: "DigitalDrz | Exclusive catalog of world-class UI/UX components for Clients",
+        title: "DigitalDrz | Exclusive catalog of world-class UI/UX components for Clients 4",
         link: "https://digitaldrz.vercel.app/",
         thumbnail:
           "/proj/drz4.webp",
@@ -202,7 +202,7 @@ export const products = [
 
 
       {
-        title: "MySQL Advanced Database Management",
+        title: "MySQL Advanced Database Management 4",
         link: "https://github.com/kintsugi-programmer/Qalakriti-Ecommerce-DBMS",
         thumbnail:
           "/proj/Qala3.webp",

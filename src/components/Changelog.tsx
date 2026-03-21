@@ -6,26 +6,26 @@ export function Changelog() {
     {
       title: "2025",
       content: (
-        <div><p className="font-bold text-xl text-white mb-4">
+        <div><div className="font-bold text-xl text-white mb-4">
   <span className="font-bold">&gt;</span> Institute Innovation Council, IIIT Delhi | Web Dev Intern | Delhi, India | Mar 2025 – Jul 2025 <br />
-  <p className="font-normal text-base">
+  <div className="font-normal text-base">
     Developed responsive and performant website features, contributing to the full-stack architecture.  
     Built cloud deployment pipelines and deployed applications to Linux servers, ensuring scalability and reliability.  
-  </p>
+  </div>
   
-</p>
+</div>
 
-          <p className="font-bold text-xl text-white mb-4">
+          <div className="font-bold text-xl text-white mb-4">
           <span className="font-bold">&gt;</span> FMT Centre of Excellence (Joint Collaboration of AIIMS & ICMR & IIIT Delhi) |  Jan 2025 - Present<br />
-          <p className="font-normal text-base">
+          <div className="font-normal text-base">
           Building a centralized and scalable web platform for clinical data and visualization involving 1000+ patients and 10+ hospitals. Project guided by Prof. Dr. Tarini Shankar Ghosh IIIT Delhi, Dr.Vineet Ahuja Dean& Former Director AIIMS Delhi. Focused on performance, scalability..
-          </p></p>
-          <p className="font-bold text-xl text-white mb-4">
+          </div></div>
+          <div className="font-bold text-xl text-white mb-4">
           <span className="font-bold">&gt;</span> Web Development Intern | HCD Department, IIIT Delhi | Mar 2025 - Apr 2025<br />
-          <p className="font-normal text-base">
+          <div className="font-normal text-base">
           Created the official website for Design Summer School 2025, a hands-on workshop series in Human-Centered AI, AR/VR, and more. Ensured smooth user navigation, accessibility, and contemporary design standards.
           
-          </p></p>
+          </div></div>
           
           <div className="grid grid-cols-2 gap-4">
             <img
@@ -51,29 +51,29 @@ export function Changelog() {
       title: "2024",
       content: (
         <div>
-          <p className="font-bold text-xl text-white mb-4">
+          <div className="font-bold text-xl text-white mb-4">
           <span className="font-bold">&gt;</span> Web Developer | CS Bhatiya & Associates (CA Firm), Pune | Nov 2024 - Jan 2025<br />
-          <p className="font-normal text-base">
+          <div className="font-normal text-base">
           Developed high-performance websites using Next.js, Tailwind CSS, and secure APIs, with deployments on Apache (Oracle Linux). Integrated SSL and SEO for enhanced security and visibility. Guided by CA Chintan S. Bhatiya.
-          </p>
+          </div>
           <br />
           <span className="font-bold">&gt;</span> Lead Web Developer | 1Pixel Design Conference 2025 Dec 2023 - Jan 2025<br />
-          <p className="font-normal text-base">
+          <div className="font-normal text-base">
           Designed and developed the website for North India's largest student-led design event at IIIT Delhi. Ensured cross-device compatibility, SEO optimization, and high-performance delivery for large-scale digital traffic.
-          </p>
+          </div>
           <br />
           <span className="font-bold">&gt;</span> Web Developer | PerSIsst Lab, IIIT Delhi | Aug 2024 - Dec 2024<br />
-          <p className="font-normal text-base">
+          <div className="font-normal text-base">
           Built and maintained the official lab website using Next.js, Tailwind CSS, and TypeScript. Improved user experience, ensured SSL-secured deployment, and optimized SEO. Worked under Dr. Pragma Kar.
-          </p>
+          </div>
           <br />
           <span className="font-bold">&gt;</span> Part-Time Intern | Human-Centered Design Department, IIIT Delhi | Apr 2023 - Jul 2024<br />
-          <p className="font-normal text-base">
+          <div className="font-normal text-base">
           Contributed to the official HCD@IIITD website and other major departmental web projects. Under the mentorship of Binu Ann Joseph, I consistently delivered responsive, scalable, and UX-optimized platforms, demonstrating strong frontend and backend skills.
 
 
-          </p>
-          </p>
+          </div>
+          </div>
           <div className="grid grid-cols-2 gap-4">
             <img
               src="/proj/csb1.webp"

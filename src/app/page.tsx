@@ -14,13 +14,6 @@ import { Changelog } from '@/components/Changelog'
 
 const page = () => {
   return (<>
-    <head>
-    <meta name="viewport" content="width=device-width, initial-scale=0.8"/>
-
-      {/* <link rel="icon" href="/jsm-logo.png" sizes="any" /> */}
-      {/* <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> */}
-
-    </head>
     <main className=" relative bg-black-100 flex justify-center items-center flex-col pt-[10] mx-auto sm:px-10 px-5 ">
     <div className="max-w-7xl w-full">
       <Hero />
