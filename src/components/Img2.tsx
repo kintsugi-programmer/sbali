@@ -40,7 +40,7 @@ const Cards = () => {
       />
       <Card
         containerRef={containerRef}
-        src="/Capture/4.jpg"
+        src="/Capture/4.webp"
         alt="Example image"
         rotate="12deg"
         top="45%"

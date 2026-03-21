@@ -137,7 +137,7 @@ const About = () => {
         <div className="flex flex-col md:flex-row gap-8 ">
             <div className="">
         <Image
-                        src="/me.jpg"
+                        src="/me.webp"
                         alt="Developer Illustration"
                         width={400}
                         height={400}

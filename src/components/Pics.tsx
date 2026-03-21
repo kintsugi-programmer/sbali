@@ -9,7 +9,7 @@ const Pics = () => {
 export default Pics
 
 const images = [
-  "/Capture/1.png"
+  "/Capture/1.webp"
   ,"/Capture/1.webp"
   ,"/Capture/1.webp"
   ,"/Capture/1.webp"

@@ -30,7 +30,7 @@ const Testimonials = () => {
         />
 
         <Card
-          imgUrl="/testimonials/pankajvajpayee.jpg"
+          imgUrl="/testimonials/pankajvajpayee.webp"
           testimonial="Siddhant played a key role in the development of projects under IIIT Delhi Innovation and Incubation Center. His full-stack expertise, design thinking, and professionalism made him an invaluable contributor."
           author="Prof. Pankaj Vajpayee – Dean, Corporate Relations & Entrepreneurship, IIIT-Delhi"
           handleShuffle={handleShuffle}
@@ -38,7 +38,7 @@ const Testimonials = () => {
         />
 
         <Card
-          imgUrl="/testimonials/Pragma.png"
+          imgUrl="/testimonials/Pragma.webp"
           testimonial="Siddhant combined creative design with technical precision to deliver a high-quality research lab website. His leadership and reliability left a lasting impact on our project outcomes."
           author="Dr. Pragma Kar - Director, PerSIsst Lab, IIIT Delhi"
           handleShuffle={handleShuffle}
@@ -46,7 +46,7 @@ const Testimonials = () => {
         />
 
         <Card
-          imgUrl="/testimonials/Binu.jpeg"
+          imgUrl="/testimonials/Binu.webp"
           testimonial="Siddhant showcased strong leadership and full-stack web development skills during multiple high-impact departmental projects. His ability to integrate DevOps with scalable design made him a valuable asset to our team."
           author="Ms. Binu Ann Joseph - Admin, HCD, IIIT Delhi"
           handleShuffle={handleShuffle}

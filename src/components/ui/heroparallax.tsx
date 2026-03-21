@@ -176,7 +176,7 @@ export const Header = () => {
 
     <div className="w-full md:w-1/3 flex justify-center md:justify-end">
       <Image
-        src="/studio/2.png"
+        src="/studio/2.webp"
         alt="Developer Illustration"
         width={600}
         height={600}

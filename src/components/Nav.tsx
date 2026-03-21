@@ -61,25 +61,25 @@ function Navbar({ className }: { className?: string }) {
                 <ProductItem
                   title="Algochurn"
                   href="https://algochurn.com"
-                  src="/proj/balinux.png"
+                  src="/proj/balinux.webp"
                   description="Prepare for tech interviews like never before."
                 />
                 <ProductItem
                   title="Tailwind Master Kit"
                   href="https://tailwindmasterkit.com"
-                  src="/proj/balinux.png"
+                  src="/proj/balinux.webp"
                   description="Production ready Tailwind css components for your next project"
                 />
                 <ProductItem
                   title="Moonbeam"
                   href="https://gomoonbeam.com"
-                  src="/proj/balinux.png"
+                  src="/proj/balinux.webp"
                   description="Never write from scratch again. Go from idea to blog in minutes."
                 />
                 <ProductItem
                   title="Rogue"
                   href="https://userogue.com"
-                  src="/proj/balinux.png"
+                  src="/proj/balinux.webp"
                   description="Respond to government RFPs, RFIs and RFQs 10x faster using AI"
                 />
               </div>

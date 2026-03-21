@@ -58,7 +58,7 @@ const cards: CardType[] = [
   { id: 7, content: <Skeleton title="Illuminated Path" quote="There is always light, if only we're brave enough to see it." />, className: "md:col-span-2", thumbnail: "/Capture/6.webp" },
 
   { id: 10, content: <Skeleton title="Park Evening" quote="Evenings are life’s way of saying that you are closer to your dreams." />, className: "md:col-span-2", thumbnail: "/Capture/9.webp" },
-  { id: 4, content: <Skeleton title="Mystic Moon" quote="The moon is a friend for the lonesome to talk to." />, className: "col-span-1", thumbnail: "/Capture/4.jpg" },
+  { id: 4, content: <Skeleton title="Mystic Moon" quote="The moon is a friend for the lonesome to talk to." />, className: "col-span-1", thumbnail: "/Capture/4.webp" },
   { id: 5, content: <Skeleton title="Sunset Bliss" quote="The sky broke like an egg into full sunset and the water caught fire." />, className: "col-span-1", thumbnail: "/Capture/4.webp" },
   { id: 6, content: <Skeleton title="Green Canopy" quote="Look deep into nature, and then you will understand everything better." />, className: "md:col-span-2", thumbnail: "/Capture/5.webp" },
 

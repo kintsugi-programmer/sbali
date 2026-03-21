@@ -105,7 +105,7 @@ export  const RoundedDrawerNav = ({
   const Logo = () => {
     // Temp logo from https://logoipsum.com/
     return (
-    <Link href='/'><Image alt='logo' height='42' width='42' src='/studio/2.png'></Image></Link>
+    <Link href='/'><Image alt='logo' height='42' width='42' src='/studio/2.webp'></Image></Link>
     );
   };
   

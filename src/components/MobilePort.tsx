@@ -10,35 +10,35 @@ export const products = [
         title: "Persisst Lab | HCD | IIIT-Delhi",
         link: "https://persisst.iiitd.edu.in/",
         thumbnail:
-          "/proj/persisst1.png",
+          "/proj/persisst1.webp",
       },
       {
         title: "Top CA Firms in Pune | Chartered Accountants and Association | C.S. Bhatiya & Associates ",
         link: "https://csbhatiya.com/",
         thumbnail:
-        "/proj/csb2.png",
+        "/proj/csb2.webp",
     },{
       title: "कर्मOS | Distraction-Free LMS Platform ",
       link: "https://karmos.vercel.app/",
       thumbnail:
-        "/proj/karmos1.png",
+        "/proj/karmos1.webp",
     },
       {
         title: "LifeLore | A Wisdom Social Network3",
         link: "https://lifelore.vercel.app/",
         thumbnail:
-          "/proj/lore1.png",
+          "/proj/lore1.webp",
       },{
         title: "1Px Descon 2025 | HCD | CDNM | IIIT-Delhi",
         link: "https://1pxdesignconf.iiitd.edu.in/",
         thumbnail:
-          "/proj/1px1.png",
+          "/proj/1px1.webp",
       },
       {
         title: "SBali | Portfolio v2",
         link: "https://lifelore.vercel.app/",
         thumbnail:
-          "/proj/sbali.jpg",
+          "/proj/sbali.webp",
       },
       {
         title: "IIIT Delhi's HCD Dept. Website",
@@ -50,52 +50,52 @@ export const products = [
         title: "Debian Scripts",
         link: "https://github.com/kintsugi-programmer/LinuxScripts",
         thumbnail:
-          "/proj/linuxscript.png",
+          "/proj/linuxscript.webp",
       },
       {
         title: "Qalakriti's MySQL Advanced Database Management",
         link: "https://github.com/kintsugi-programmer/Qalakriti-Ecommerce-DBMS",
         thumbnail:
-          "/proj/Qala3.jpg",
+          "/proj/Qala3.webp",
       },
       {
         title: "QalaKriti E-Commerce Platform Backend",
         link: "https://github.com/kintsugi-programmer/Qalakriti-Ecommerce-DBMS",
         thumbnail:
-        "/proj/Qala1.png",
+        "/proj/Qala1.webp",
     },{
       title: "DecoyNet : Lo-Fi Honeypots",
       link: "https://github.com/kintsugi-programmer/DecoyNet?tab=readme-ov-file#breachbot",
       thumbnail:
-        "/proj/breacher.png",
+        "/proj/breacher.webp",
     },  
   {
       title: "Legacy Portfolio - balinux v1",
       link: "https://kintsugi-programmer.github.io/",
       thumbnail:
-        "/proj/balinux.png",
+        "/proj/balinux.webp",
     },
     {
       title: "Snake Game",
       link: "https://kintsugi-programmer.github.io/Snake-Game/",
       thumbnail:
-        "/proj/snake.png",
+        "/proj/snake.webp",
     },{
       title: "1Px Descon 2025 | Rough",
       link: "https://1pixel.vercel.app/",
       thumbnail:
-        "/proj/1pxold1.png",
+        "/proj/1pxold1.webp",
     }, {
         title: "Design Summer School 2025 | IIIT Delhi",
         link: "https://dss2025.iiitd.edu.in/",
         thumbnail:
-          "/proj/dss1.png",
+          "/proj/dss1.webp",
       },
       {
         title: "DigitalDrz | Exclusive catalog of world-class UI/UX components for Clients",
         link: "https://dss2025.iiitd.edu.in/",
         thumbnail:
-          "/proj/drz1.png",
+          "/proj/drz1.webp",
       },
         
 ];
@@ -105,7 +105,7 @@ const MobilePort = () => {
     return (<>
       <div className="max-w-7xl relative mx-auto pt-20 md:pt-40 px-4 w-full  left-0 top-0">
          <Image
-                src="/studio/2.png"
+                src="/studio/2.webp"
                 alt="Developer Illustration"
                 width={700}
                 height={600}
